@@ -53,7 +53,7 @@ nav {
     flex-flow: column;
     justify-content: space-between;
     gap: 50px;
-    margin: auto;
+    margin: 28.150px;
     padding-top: 2em;
 }
 
@@ -87,6 +87,30 @@ nav {
     color: white;
     padding: 10px;
     gap: 10px;
+}
+
+.text2 {
+    background-color: #3CDDF3;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 80px, 20px, 40px, 20px;
+}
+
+.text2 h3{
+    text-align: left;
+    font-family: Be Vietnam;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:41.26px;
+    padding: 20px;
+    
+}
+
+.text2 p{
+    padding: 20px;
 }
 
 @media (min-width: 700px) {
