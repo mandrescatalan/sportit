@@ -151,7 +151,7 @@ nav {
 
 .container__boxes  h6{
     background-color: #8B48BF4D;
-    width:480px;
+    width:300px;
     height: 43px;
     font-family:Be Vietnam;
     font-weight:700px;
@@ -167,9 +167,72 @@ nav {
 
 .container__boxes p{
     padding: 25px 17px;
+    color: #B9B9C1;
 }
 
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 5px;
+    padding: 20px;
+}
 
+.testimonios h1{
+    color: #242E53;
+    font-family:Be Vietnam;
+    font-size:35px;
+    font-weight:700px;
+    line-height:61px;
+    letter-spacing:-0.01em;
+}
+
+.img_lebron{
+    position: relative;
+    top: 45px;
+    width: 70px;
+    height: 70px;
+}
+
+.rectangle{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    bottom: 30px;
+    padding: 20px 0px 0px 0px;
+}
+
+.testimonios h4{
+    position: relative;
+    top: 30px;
+    color:#3F4868;
+
+}
+
+.testimonios p{
+    color: #B9B9C1;
+    padding: 20px 25px;
+    text-align: center;
+}
+
+.testimonios button{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #8B48BF;
+    color: white;
+    padding: 10px;
+    gap: 10px;
+}
+
+.button_more{
+    position: relative;
+    top: 30px;
+}
 
 
 
