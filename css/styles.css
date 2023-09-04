@@ -113,6 +113,10 @@ nav {
     padding: 20px;
 }
 
+.container__boxes{
+    padding: 55px 0px 25px 25px;
+}
+
 .box1{
     padding:0;
 }
@@ -145,13 +149,17 @@ nav {
 
 .container__boxes  h6{
     background-color: #8B48BF4D;
-    width:310px;
+    width:480px;
     height: 43px;
     font-family:Be Vietnam;
     font-weight:700px;
     line-height:23px;
-    text-align:center;
+    text-align:left;
     font-size:0.9em;
+}
+
+.container__boxes p{
+    padding: 25px 17px;
 }
 
 
