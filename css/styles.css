@@ -113,6 +113,52 @@ nav {
     padding: 20px;
 }
 
+.box1{
+    padding:0;
+}
+
+.box1__1{
+    display: flex;
+
+}
+
+.box2__1{
+    display: flex;
+
+}
+
+.box3__1{
+    display: flex;
+
+}
+
+.container__boxes button{
+    width: 69px;
+    height: 43px;
+    border-radius: 30px;
+    background-color: #8B48BF;
+    color: white;
+    padding: 10px, 25px, 10px, 25px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.container__boxes  h6{
+    background-color: #8B48BF4D;
+    width:310px;
+    height: 43px;
+    font-family:Be Vietnam;
+    font-weight:700px;
+    line-height:23px;
+    text-align:center;
+    font-size:0.9em;
+}
+
+
+
+
+
+
 @media (min-width: 700px) {
 
     header{
