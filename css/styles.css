@@ -272,30 +272,105 @@ nav {
 
 .container_footer{
     background-color:#1E1E26;
-    height: 550px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .botones_footer{
     position: relative;
-    bottom: 120px;
+    bottom: 35px;
     display: flex;
     justify-content: space-around;
     gap: 7px;
 }
 
 .boton__f1{
-    width: 240px;
-    height: 36px;
+    width: 220px;
+    height: 33px;
     border-radius: 50px;
     background-color:#FFFFFF;
     color:#A0A0A0;
     text-align: left;
     padding: 0 10px;
+    font-size: 11px;
 }
+
+.boton__f2{
+    width: 50px;
+    height: 31px;
+    border-radius: 50px;
+    color:#FFFFFF;
+    background-color: #8B48BF;
+}
+
+.container__listas{
+    width: 320px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+footer nav{
+    width: 260px;
+    height: 120px;
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    font-size: 15px;
+    gap: 40px;
+    position: relative;
+    left: 15px;
+}
+
+footer nav ul{
+    width: 200px;
+    height: 120px;
+    gap: 10px;
+    font-size: 14px;
+    flex-direction: column;
+}
+
+.lista_1 {
+    display: flex;
+
+}
+
+.lista_2{
+    display: flex;
+}
+
+.iconos__redes{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+}
+
+.last__logo{
+    position: relative;
+    top: 30px;
+}
+
+.last__logo{
+    width: 80px;
+}
+
+.last__item{
+    color:#8C8C94;
+    font-size: 10px;
+    position: relative;
+    top:95px;
+}
+
 
 .boton__f2{
     width: 50px;
@@ -303,8 +378,6 @@ nav {
     border-radius: 50px;
     color:#FFFFFF;
     background-color: #8B48BF;
-
-
 }
 
 
