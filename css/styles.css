@@ -136,7 +136,7 @@ nav {
 
 }
 
-.container__boxes button{
+.container__boxes div section button{
     width: 69px;
     height: 43px;
     border-radius: 30px;
@@ -149,7 +149,7 @@ nav {
 
 }
 
-.container__boxes  h6{
+.container__boxes div section h6{
     background-color: #8B48BF4D;
     width:300px;
     height: 43px;
@@ -179,7 +179,7 @@ nav {
     padding: 20px;
 }
 
-.testimonios h1{
+.testimonios section h1{
     color: #242E53;
     font-family:Be Vietnam;
     font-size:35px;
@@ -206,20 +206,20 @@ nav {
     padding: 20px 0px 0px 0px;
 }
 
-.testimonios h4{
+.testimonios section h4{
     position: relative;
     top: 30px;
     color:#3F4868;
 
 }
 
-.testimonios p{
+.testimonios section p{
     color: #B9B9C1;
     padding: 20px 25px;
     text-align: center;
 }
 
-.testimonios button{
+.testimonios section button{
     width: 130px;
     height: 40px;
     border-radius: 50px;
@@ -269,6 +269,44 @@ nav {
     color: white;
     box-shadow: 0px 4px 8px 0px #00000040;
 }
+
+.container_footer{
+    background-color:#1E1E26;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones_footer{
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+    gap: 7px;
+}
+
+.boton__f1{
+    width: 240px;
+    height: 36px;
+    border-radius: 50px;
+    background-color:#FFFFFF;
+    color:#A0A0A0;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.boton__f2{
+    width: 50px;
+    height: 34px;
+    border-radius: 50px;
+    color:#FFFFFF;
+    background-color: #8B48BF;
+
+
+}
+
 
 
 @media (min-width: 700px) {
