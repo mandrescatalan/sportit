@@ -1,289 +1,605 @@
  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    list-style: none;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Be Vietnam Pro', sans-serif;
+     text-decoration: none;
+     border: none;
+     outline: none;
+     list-style: none;
+ }
 
-header {
-    height: 100px;
-}
+ header {
+     height: 100px;
+ }
 
-header .container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 80%;
-    padding: 15px 0;
-    margin: auto;
-}
-
-
-.iconoMenu {
-    display: flex;
-    justify-content: space-between;
-    width: 35px;
-    height: 25px;
-}
-
-nav {
-    display: none;
-}
-
-.container button {
-    display: none;
-}
-
-.container__padel {
-    display: flex;
-    max-width: 80%;
-    padding: 40px 0 30px 0;
-    margin: auto;
-    flex-direction: column;
-}
-
-.container__padel img {
-    width: 300px;
-    height: 230px;
-}
-
-.text {
-    display: flex;
-    padding-top: 80px;
-    align-items: flex-end;
-    flex-direction: column;
-    text-align: right;
-    gap: 28px;
-}
-
-.text h1 {
-    color: #232C50;
-    text-align: right;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 114.6%;
-    letter-spacing: -1.75px;
-}
-
-.text p {
-    color: #000;
-    text-align: right;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 157.1%;
-}
-
-.text button {
-    width: 130px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #8B48BF;
-    color: white;
-    padding: 10px;
-    gap: 10px;
-}
-
-.text2 {
-    background-color: #3CDDF3;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 20px;
-    gap: 50px;
-}
-
-.text2 h3 {
-    color: #FFF;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 114.6%;
-}
-
-.text2 p {
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 151.1%;
-}
-
-#contenido-a-cambiar::before {
-    content: "Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams";
-}
-
-/* Seccion 3 */
-.container__boxes{
-    padding: 55px 0px 25px 25px;
-}
-
-.box1{
-    padding:0;
-}
-
-.box1__1{
-    display: flex;
-
-}
-
-.box2__1{
-    display: flex;
-
-}
-
-.box3__1{
-    display: flex;
-
-}
-
-.container__boxes button{
-    width: 69px;
-    height: 43px;
-    border-radius: 30px;
-    background-color: #8B48BF;
-    color: white;
-    padding: 10px, 25px, 10px, 25px;
-    gap: 10px;
-    font-weight: bold;
-    position: absolute;
-
-}
-
-.container__boxes  h6{
-    background-color: #8B48BF4D;
-    color: #323851;;
-    width:300px;
-    height: 43px;
-    font-weight:700px;
-    line-height:23px;
-    text-align:left;
-    font-size:0.9em;
-    display: flex;
-    align-items: center;
-    padding: 20px 20px 20px 30px;
-    position: relative;
-    left: 50px;
-}
-
-.container__boxes p{
-    padding: 25px 17px;
-    color: #B9B9C1;
-}
+ header .container {
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     max-width: 80%;
+     padding: 15px 0;
+     margin: auto;
+ }
 
 
-@media (min-width: 850px) {
-    header {
-        height: 174px;
-    }
+ .iconoMenu {
+     display: flex;
+     justify-content: space-between;
+     width: 35px;
+     height: 25px;
+ }
 
-    .iconoMenu {
-        display: none;
-    }
+ nav {
+     display: none;
+ }
 
-    header .container {
-        margin: auto;
-        width: 1440px;
-        max-width: 80%;
+ .container button {
+     display: none;
+ }
+
+ .container__padel {
+     display: flex;
+     max-width: 80%;
+     padding: 40px 0 30px 0;
+     margin: auto;
+     flex-direction: column;
+ }
+
+ .text {
+     display: flex;
+     padding-top: 80px;
+     align-items: flex-end;
+     flex-direction: column;
+     text-align: right;
+     gap: 28px;
+ }
+
+ .text h1 {
+     color: #232C50;
+     text-align: right;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 114.6%;
+     letter-spacing: -1.75px;
+ }
+
+ .text p {
+     color: #000;
+     text-align: right;
+     font-size: 16px;
+     font-style: normal;
+     line-height: 157.1%;
+ }
+
+ .text button {
+     width: 130px;
+     height: 40px;
+     border-radius: 50px;
+     background-color: #8B48BF;
+     color: white;
+     padding: 10px;
+     gap: 10px;
+ }
+
+ .text2 {
+     background-color: #3CDDF3;
+     color: #FFFFFF;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 40px 20px;
+     gap: 50px;
+ }
+
+ .text2 h3 {
+     color: #FFF;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 114.6%;
+ }
+
+ .text2 p {
+     color: #FFF;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 151.1%;
+ }
+
+ #contenido-a-cambiar::before {
+     content: "Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams";
+ }
+
+ /* Seccion 3 */
+
+ .container__boxes {
+     margin: 55px 0px 25px 25px;
+ }
+
+ .box__title {
+     display: flex;
+     background: rgba(139, 72, 191, 0.30);
+     border-radius: 30px 0 0 30px;
+     gap: 10px;
+ }
+
+ .box__title button {
+     width: 69px;
+     height: 43px;
+     border-radius: 30px;
+     background-color: #8B48BF;
+     color: white;
+     font-weight: bold;
+ }
+
+ .box__title h6 {
+     color: #323851;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: -0.24px;
+     display: flex;
+     align-items: center;
+ }
+
+ .box p {
+     padding: 25px 17px;
+     color: #B9B9C1;
+ }
+
+ /* Best of the month */
+
+ .best__month {
+     max-width: 90%;
+     margin: auto;
+ }
+
+ .best__month__title {
+     margin-top: 50px;
+ }
+
+ .best__month__title h4 {
+     text-align: center;
+     color: #242E53;
+     font-size: 35px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 156.6%;
+     letter-spacing: -0.392px;
+ }
+
+ .best__month__card {
+     background: #FAFAFA;
+     height: 250px;
+     margin: 100px 0 50px;
+     position: relative;
+ }
+
+ .best__month__card__avatar {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     position: absolute;
+     bottom: 215px;
+ }
+
+ .best__month__text {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     padding: 50px 3px 0px 3px;
+     gap: 15px;
+ }
+
+ .best__month__text h6 {
+     color: #3F4868;
+     font-size: 16.071px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 156.6%;
+     letter-spacing: -0.161px;
+ }
+
+ .best__month__text p {
+     height: 100%;
+     color: #B9B9C1;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 156.6%;
+ }
+
+ .best__month__card__button {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+
+ .best__month__card__button button {
+     width: 134px;
+     height: 44px;
+     border-radius: 50px;
+     background-color: #8B48BF;
+     color: white;
+ }
+
+ .container__best__month {
+     margin-bottom: 50px;
+ }
+
+ #disappear {
+     display: none;
+ }
+
+ /* Best teams */
+
+ .best_teams {
+     background-color: #3CDDF3;
+     text-align: center;
+     padding: 40px 0;
+ }
+
+ .best__teams__content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 50px;
+     max-width: 70%;
+     margin: auto;
+ }
+
+ .best__teams__content h1 {
+     color: #FFF;
+     text-align: center;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 119.6%;
+     letter-spacing: -0.2px;
+ }
+
+
+ .best__teams__content button {
+     width: 134px;
+     height: 44px;
+     border-radius: 50px;
+     background: #232C50;
+     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+     color: #FFF;
+ }
+
+ /* Footer */
+
+ footer {
+     background: #1E1E26;
+ }
+
+ .container_footer {
+     max-width: 80%;
+     margin: auto;
+ }
+
+ form {
+     padding: 40px 0px 35px;
+     display: flex;
+     gap: 10px;
+ }
+
+ form input {
+     border-radius: 50px;
+     background: #FFF;
+     display: flex;
+     height: 44px;
+     padding: 10px;
+     align-items: center;
+     gap: 10px;
+     flex: 1 0 0;
+     width: 80%;
+ }
+
+ form button {
+     display: flex;
+     width: 63px;
+     height: 42px;
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     border-radius: 50px;
+     background: #8B48BF;
+     color: rgba(255, 255, 255, 1);
+ }
+
+ .container__listas nav {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 0px 20px 35px;
+ }
+
+ .container__listas ul {
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+ }
+
+ .container__listas li {
+     color: #FFF;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .container__logo__icon__footer {
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+
+ }
+
+ .iconos__redes {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .last__logo {
+     text-align: center;
+ }
+
+ .last__item {
+     text-align: center;
+     padding: 30px 0 40px;
+ }
+
+ .last__item p {
+     color: #8C8C94;
+     font-size: 12.5px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+ }
+
+
+
+ @media (min-width: 850px) {
+     header {
+         height: 170px;
+     }
+
+     .iconoMenu {
+         display: none;
+     }
+
+     header .container {
+         margin: auto;
+         width: 1440px;
+         max-width: 80%;
+         display: flex;
+         justify-content: space-between;
+         gap: 15px;
+     }
+
+     nav {
+         display: block;
+     }
+
+     nav ul {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 1.5em;
+     }
+
+     nav a:active {
+         color: #242E52;
+     }
+
+     a:hover {
+         color: rgba(36, 46, 82, 0.60);
+     }
+
+     .container button {
+         display: block;
+         width: 134px;
+         height: 44px;
+         border-radius: 50px;
+         background-color: #8B48BF;
+         color: white;
+         box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
+     }
+
+     .container__padel {
+         display: flex;
+         flex-direction: row;
+         max-width: 80%;
+         margin: auto;
+         padding: 0;
+         padding-bottom: 50px;
+         justify-content: space-between;
+     }
+
+     .container__padel img {
+         max-width: 50%;
+         width: 540px;
+         height: 461.07px;
+     }
+
+     .text h1 {
+         font-size: 55px;
+     }
+
+     .text p {
+         font-size: 18px;
+     }
+
+     .text {
+         width: 500px;
+     }
+
+     .text2 {
+         background-color: #8B48BF;
+         color: #FFFFFF;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .text2 h3 {
+         width: 500px;
+         height: 88px;
+     }
+
+     .text2 p {
+         width: 450px;
+         height: 88px;
+     }
+
+     #contenido-a-cambiar::before {
+         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.";
+     }
+
+     .contianer__boxes__background {
+         background-color: rgba(250, 250, 250, 1)
+     }
+
+     .container__boxes {
+         margin: auto;
+         max-width: 85%;
+         padding: 40px 0px;
+         display: flex;
+         flex-direction: column;
+     }
+
+     .boxes {
+         display: flex;
+         justify-content: space-between;
+     }
+
+     .box {
+         width: 550px;
+     }
+
+     .box__title {
+         background-color: rgba(250, 250, 250, 1);
+         gap: 23px;
+     }
+
+     .box p {
+         padding: 10px 0 0 100px;
+         font-size: 16px;
+     }
+
+
+     .box1 {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 24px;
+     }
+
+
+     #disappear {
+         display: block;
+     }
+
+     .best__month__title {
+         margin-top: 100px;
+     }
+
+     .best__month__title h4 {
+         font-size: 40px;
+     }
+
+     .best__month {
+         display: flex;
+         max-width: 90%;
+     }
+
+     .best__month__text {
+         width: 100%;
+         padding: 50px 10px 20px 10px;
+         display: flex;
+         gap: 20px;
+     }
+
+     .best__month__text p {
+         font-size: 15px;
+     }
+
+
+
+     .best_teams {
+         background-color: #8B48BF;
+     }
+
+     .best__teams__content {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+         max-width: 80%;
+         margin: auto;
+         padding: 30px 0;
+       
+     }
+
+     .best__teams__content h1 {
+         width: 500px;
+     }
+
+     .best__teams__content button {
+         background: white;
+         color: #8B48BF;
+     }
+
+     .container_footer {
+         display: flex;
+         flex-direction: row-reverse;
+         justify-content: space-between;
+     }
+
+     .container__listas{
         display: flex;
-        justify-content: space-between;
-        gap: 15px;
-    }
-
-    nav {
-        display: block;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: center;
         align-items: center;
-        gap: 1.5em;
-    }
-
-    nav a:active{
-        color: #242E52;
-    }
-
-    a:hover{
-        color:rgba(36, 46, 82, 0.60) ;
-    }
-
-    .container button {
-        display: block;
-        width: 134px;
-        height: 44px;
-        border-radius: 50px;
-        background-color: #8B48BF;
-        color: white;
-        box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
-    }
-
-    .container__padel {
+     }
+     .container__listas nav {
         display: flex;
-        flex-direction: row;
-        max-width: 80%;
-        margin: auto;
-        padding: 0;
-        padding-bottom: 50px;
-        justify-content: space-between;
-    }
-
-    .container__padel img {
-        object-fit: cover;
-        max-width: 50%;
-        width: 540px;
-        height: 461.07px;
-    }
-
-    .text h1 {
-        font-size: 55px;
-    }
-
-    .text p {
-        font-size: 18px;
-    }
-
-    .text {
-        width: 500px;
-    }
-
-    .text2 {
-        background-color: #8B48BF;
-        color: #FFFFFF;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        gap: 219px;
         align-items: center;
+        padding: 40px 0;
     }
 
-    .text2 h3{
-        width: 500px;
-        height: 88px;
+    .container__logo__icon__footer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:flex-start;
+        justify-content: center;
+        gap:80px
     }
 
-    .text2 p {
-        width: 450px;
-        height: 88px;
+    .iconos__redes{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
     }
-
-    #contenido-a-cambiar::before {
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.";
-    }
-
-   .container__boxes{
-    margin: auto;
+   
+   .last__item{
     max-width: 80%;
-    display: flex;
-    padding: 50px 0 25px 0;
+    margin: auto;
+    text-align: end;
+    padding: 0px 0 30px;
    }
-}
+
+ }
